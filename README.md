@@ -30,6 +30,13 @@ This repo documents my consistent journey toward mastering problem solving and p
 
 ---
 
+## 🗂️ Folder Structure
+
+- Array & Hashing/
+  - Easy-Level/
+    - leatcode/
+    - neetcode/
+
 ## 📊 Progress Tracker
 
 | Topic | Problems Solved |

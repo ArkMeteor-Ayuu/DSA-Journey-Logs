@@ -69,6 +69,23 @@ def count_problem_files(topic_dir: Path) -> int:
     return total
 
 
+def build_folder_tree_lines(directory: Path, indent_level: int = 0) -> list[str]:
+    """Build a markdown bullet tree containing folders only."""
+    lines: list[str] = []
+
+    for entry in sorted(directory.iterdir(), key=lambda path: path.name.lower()):
+        if not entry.is_dir():
+            continue
+        if entry.name in IGNORED_ROOT_DIRS or entry.name.startswith("."):
+            continue
+
+        indent = "  " * indent_level
+        lines.append(f"{indent}- {entry.name}/")
+        lines.extend(build_folder_tree_lines(entry, indent_level + 1))
+
+    return lines
+
+
 def get_root_folders(root: Path) -> dict[str, Path]:
     """Get normalized root folder names mapped to paths."""
     folders: dict[str, Path] = {}
@@ -177,13 +194,54 @@ def update_progress_table(content: str, root: Path) -> str:
     return "\n".join(updated_lines) + "\n"
 
 
+def update_folder_structure_section(content: str, root: Path) -> str:
+    """Insert or refresh the folder structure section in the README."""
+    marker = "## 🗂️ Folder Structure"
+    lines = content.splitlines()
+    tree_lines = build_folder_tree_lines(root)
+    section_lines = [marker, ""]
+
+    if tree_lines:
+        section_lines.extend(tree_lines)
+    else:
+        section_lines.append("- (no folders found)")
+
+    section_lines.append("")
+
+    if marker in content:
+        start_idx = next(i for i, line in enumerate(lines) if line.strip() == marker)
+        end_idx = start_idx + 1
+
+        while end_idx < len(lines):
+            next_line = lines[end_idx].strip()
+            if next_line.startswith("## ") and end_idx > start_idx:
+                break
+            end_idx += 1
+
+        updated_lines = lines[:start_idx] + section_lines + lines[end_idx:]
+    else:
+        insert_before = None
+        for index, line in enumerate(lines):
+            if line.strip() == "## 📊 Progress Tracker":
+                insert_before = index
+                break
+
+        if insert_before is None:
+            raise ValueError("Progress Tracker section not found in README.")
+
+        updated_lines = lines[:insert_before] + section_lines + lines[insert_before:]
+
+    return "\n".join(updated_lines) + "\n"
+
+
 def update_readme(readme_path: Path, root: Path) -> None:
     """Update the README Progress Tracker table in-place."""
     if not readme_path.exists():
         raise FileNotFoundError(f"README not found at: {readme_path}")
 
     content = readme_path.read_text(encoding="utf-8")
-    updated = update_progress_table(content, root)
+    updated = update_folder_structure_section(content, root)
+    updated = update_progress_table(updated, root)
     readme_path.write_text(updated, encoding="utf-8")
 
 
