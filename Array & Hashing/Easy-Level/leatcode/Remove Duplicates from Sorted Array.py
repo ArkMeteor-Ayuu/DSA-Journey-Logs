@@ -3,8 +3,8 @@
 # Difficulty: Easy
 # Link: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 #
-# Time Complexity: O(n) (O(n) recommended)
-# Space Complexity: O(1) (O(1) recommended)
+# Time Complexity: O(n) (O(n) recommended) 
+# Space Complexity: O(1) (O(1) recommended) 
 
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
