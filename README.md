@@ -2,6 +2,10 @@
 
 > A focused log of problem solving, platform-separated solutions, and tracked DSA progress.
 
+<p>
+  <span>🟦 structured</span> · <span>🟩 tracked</span> · <span>🟨 platform-split</span> · <span>🟥 iterative</span>
+</p>
+
 ## Snapshot
 
 | Signal | Value |
@@ -39,12 +43,18 @@ This repository is meant to stay simple to scan and easy to update. The README i
 - Stack & Queue
 - Recursion & Backtracking
 - Binary Search
+- Arrays
+- Strings
+- Linked List
+- Stack & Queue
+- Recursion & Backtracking
+- Binary Search
 - Trees
 - Graphs
 - Dynamic Programming
 - Sliding Window & Two Pointers
-
-## Folder Structure
+  - Easy-Level/
+- assets/
 
 ## 🗂️ Folder Structure
 
