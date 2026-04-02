@@ -1,52 +1,37 @@
-<div align="center">
-
-<img src="assets/banner.svg" alt="DSA Journey banner" width="100%" />
-
 # DSA Journey — Ayuu
 
-<p>
-  A structured log of problem solving, platform-based solutions, and steady DSA progress.
-</p>
+> A focused log of problem solving, platform-separated solutions, and tracked DSA progress.
 
-<p>
-  <img src="https://img.shields.io/badge/Python-Primary-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Primary" />
-  <img src="https://img.shields.io/badge/LeatCode-Solutions-0EA5E9?style=for-the-badge" alt="LeatCode Solutions" />
-  <img src="https://img.shields.io/badge/NeetCode-Solutions-22C55E?style=for-the-badge" alt="NeetCode Solutions" />
-</p>
+## Snapshot
 
-</div>
+| Signal | Value |
+|---|---|
+| Primary language | Python |
+| Solved source | LeatCode + NeetCode |
+| Tracker | Auto-updated from folder structure |
+| Goal | 500+ DSA problems |
 
-## Overview
+## What this repo is
 
-This repository tracks my DSA journey with a clean folder structure and an automated progress tracker. The README is designed to stay readable while still feeling like a live dashboard.
+This repository is meant to stay simple to scan and easy to update. The README is written like a project dashboard, but it is driven by repository structure instead of decorative images.
 
-## Highlights
+## Working style
 
-<table>
-  <tr>
-    <td width="33%">
-      <strong>Platform split</strong><br />
-      Solutions are separated into <code>leatcode</code> and <code>neetcode</code> folders.
-    </td>
-    <td width="33%">
-      <strong>Auto-updated tracker</strong><br />
-      The progress table is regenerated from the repository structure.
-    </td>
-    <td width="33%">
-      <strong>Visual polish</strong><br />
-      Animated SVG artwork adds motion without depending on unsupported scripts.
-    </td>
-  </tr>
-</table>
+| Area | Approach |
+|---|---|
+| Problems | Stored by topic, then by platform |
+| Platforms | `leatcode` and `neetcode` live side by side |
+| Updates | `tracker.py` refreshes the progress table and folder tree |
+| Design | Text-first layout with clean spacing and no banner dependency |
 
-## 🎯 Goals
+## Goals
 
 - Solve 500+ DSA problems
 - Master core problem-solving patterns
 - Strengthen time and space complexity intuition
 - Prepare for top tech internships
 
-## 🧠 Topics Covered
+## Topics Covered
 
 - Arrays
 - Strings
@@ -58,6 +43,8 @@ This repository tracks my DSA journey with a clean folder structure and an autom
 - Graphs
 - Dynamic Programming
 - Sliding Window & Two Pointers
+
+## Folder Structure
 
 ## 🗂️ Folder Structure
 
@@ -78,15 +65,11 @@ This repository tracks my DSA journey with a clean folder structure and an autom
 | Graphs | 0 |
 | Dynamic Programming | 0 |
 
-## 🛠️ Language
-
-- Python (Primary)
-
-## ⭐ Philosophy
+## Philosophy
 
 > Consistency beats intensity. But when you're late, consistency and intensity must meet.
 
-## 🔥 Connect With Me
+## Connect
 
-*(Will add later)*
+Will add later.
 
