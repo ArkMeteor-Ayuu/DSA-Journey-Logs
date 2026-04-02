@@ -4,8 +4,8 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2300&pause=650&color=22C55E&center=true&vCenter=true&width=980&height=64&lines=Structured+practice.+Clean+tracking.;Interview+prep+through+daily+consistency.;One+problem+at+a+time%2C+but+always+moving+forward." alt="Animated typing header" width="100%" />
 
-<img src="https://img.shields.io/badge/Python-Primary-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Primary" />
-<img src="https://img.shields.io/badge/LeatCode-Solutions-0EA5E9?style=for-the-badge" alt="LeatCode Solutions" />
+<img src="https://img.shields.io/badge/Python-Primary-0EA5E9?style=for-the-badge&logo=python&logoColor=white" alt="Python Primary" />
+<img src="https://img.shields.io/badge/LeatCode-Solutions-22C55E?style=for-the-badge" alt="LeatCode Solutions" />
 <img src="https://img.shields.io/badge/NeetCode-Solutions-22C55E?style=for-the-badge" alt="NeetCode Solutions" />
 <img src="https://img.shields.io/badge/Tracker-Auto%20Update-F59E0B?style=for-the-badge" alt="Auto Update Tracker" />
 
