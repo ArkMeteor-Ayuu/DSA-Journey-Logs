@@ -1,48 +1,44 @@
-# DSA Journey — Ayuu
+<div align="center">
 
-> A focused log of problem solving, platform-separated solutions, and tracked DSA progress.
+<img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:07111F,35:0F2340,70:1C4B6E,100:16A34A&text=DSA%20Journey%20-%20Ayuu&fontColor=EAF6FF&fontSize=52&fontAlignY=37&desc=LeatCode%20%7C%20NeetCode%20%7C%20Consistent%20Growth&descSize=20&descAlignY=58&animation=fadeIn" alt="DSA Journey header" width="100%" />
 
-<p>
-  <span>🟦 structured</span> · <span>🟩 tracked</span> · <span>🟨 platform-split</span> · <span>🟥 iterative</span>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2300&pause=650&color=22C55E&center=true&vCenter=true&width=980&height=64&lines=Structured+practice.+Clean+tracking.;Interview+prep+through+daily+consistency.;One+problem+at+a+time%2C+but+always+moving+forward." alt="Animated typing header" width="100%" />
+
+<img src="https://img.shields.io/badge/Python-Primary-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Primary" />
+<img src="https://img.shields.io/badge/LeatCode-Solutions-0EA5E9?style=for-the-badge" alt="LeatCode Solutions" />
+<img src="https://img.shields.io/badge/NeetCode-Solutions-22C55E?style=for-the-badge" alt="NeetCode Solutions" />
+<img src="https://img.shields.io/badge/Tracker-Auto%20Update-F59E0B?style=for-the-badge" alt="Auto Update Tracker" />
+
+</div>
+
+## Overview
+
+This repository tracks my DSA journey with platform-separated solutions and an automated progress tracker.
+
+## Highlights
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Platform%20Split-LeatCode%20%2B%20NeetCode-0EA5E9?style=flat-square" alt="Platform Split" />
+<img src="https://img.shields.io/badge/Progress-README%20Auto%20Synced-22C55E?style=flat-square" alt="Progress Synced" />
+<img src="https://img.shields.io/badge/Structure-Folder%20Tree%20Generated-F59E0B?style=flat-square" alt="Folder Tree Generated" />
+
+</div>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ArkMeteor-Ayuu&show_icons=true&hide_border=true&bg_color=00000000&title_color=22C55E&icon_color=38BDF8&text_color=CBD5E1" alt="GitHub stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArkMeteor-Ayuu&layout=compact&hide_border=true&bg_color=00000000&title_color=22C55E&text_color=CBD5E1" alt="Top languages" width="48%" />
 </p>
 
-## Snapshot
-
-| Signal | Value |
-|---|---|
-| Primary language | Python |
-| Solved source | LeatCode + NeetCode |
-| Tracker | Auto-updated from folder structure |
-| Goal | 500+ DSA problems |
-
-## What this repo is
-
-This repository is meant to stay simple to scan and easy to update. The README is written like a project dashboard, but it is driven by repository structure instead of decorative images.
-
-## Working style
-
-| Area | Approach |
-|---|---|
-| Problems | Stored by topic, then by platform |
-| Platforms | `leatcode` and `neetcode` live side by side |
-| Updates | `tracker.py` refreshes the progress table and folder tree |
-| Design | Text-first layout with clean spacing and no banner dependency |
-
-## Goals
+## 🎯 Goals
 
 - Solve 500+ DSA problems
 - Master core problem-solving patterns
 - Strengthen time and space complexity intuition
 - Prepare for top tech internships
 
-## Topics Covered
+## 🧠 Topics Covered
 
-- Arrays
-- Strings
-- Linked List
-- Stack & Queue
-- Recursion & Backtracking
-- Binary Search
 - Arrays
 - Strings
 - Linked List
@@ -53,8 +49,6 @@ This repository is meant to stay simple to scan and easy to update. The README i
 - Graphs
 - Dynamic Programming
 - Sliding Window & Two Pointers
-  - Easy-Level/
-- assets/
 
 ## 🗂️ Folder Structure
 
@@ -62,7 +56,6 @@ This repository is meant to stay simple to scan and easy to update. The README i
   - Easy-Level/
     - leatcode/
     - neetcode/
-- assets/
 
 ## 📊 Progress Tracker
 
@@ -75,11 +68,15 @@ This repository is meant to stay simple to scan and easy to update. The README i
 | Graphs | 0 |
 | Dynamic Programming | 0 |
 
-## Philosophy
+## 🛠️ Language
+
+- Python (Primary)
+
+## ⭐ Philosophy
 
 > Consistency beats intensity. But when you're late, consistency and intensity must meet.
 
-## Connect
+## 🔥 Connect With Me
 
-Will add later.
+*(Will add later)*
 
