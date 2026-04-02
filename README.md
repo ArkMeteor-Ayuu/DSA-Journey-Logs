@@ -15,21 +15,6 @@
 
 This repository tracks my DSA journey with platform-separated solutions and an automated progress tracker.
 
-## Highlights
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Platform%20Split-LeatCode%20%2B%20NeetCode-0EA5E9?style=flat-square" alt="Platform Split" />
-<img src="https://img.shields.io/badge/Progress-README%20Auto%20Synced-22C55E?style=flat-square" alt="Progress Synced" />
-<img src="https://img.shields.io/badge/Structure-Folder%20Tree%20Generated-F59E0B?style=flat-square" alt="Folder Tree Generated" />
-
-</div>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ArkMeteor-Ayuu&show_icons=true&hide_border=true&bg_color=00000000&title_color=22C55E&icon_color=38BDF8&text_color=CBD5E1" alt="GitHub stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArkMeteor-Ayuu&layout=compact&hide_border=true&bg_color=00000000&title_color=22C55E&text_color=CBD5E1" alt="Top languages" width="48%" />
-</p>
-
 ## 🎯 Goals
 
 - Solve 500+ DSA problems
