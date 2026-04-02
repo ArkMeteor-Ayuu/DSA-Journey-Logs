@@ -34,7 +34,7 @@ This repo documents my consistent journey toward mastering problem solving and p
 
 | Topic | Problems Solved |
 |------|----------------|
-| Arrays | 0 |
+| Arrays | 5 |
 | Strings | 0 |
 | Linked List | 0 |
 | Trees | 0 |
@@ -58,3 +58,4 @@ This repo documents my consistent journey toward mastering problem solving and p
 ### 🔥 Connect With Me
 
 *(Will add later)*
+
