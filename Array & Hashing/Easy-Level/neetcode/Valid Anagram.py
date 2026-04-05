@@ -1,10 +1,24 @@
-# Problem: Concatenation of Array
+# Problem: Valid Anagram
 # Platform: NeetCode 
 # Difficulty: Easy
-# Link: https://neetcode.io/problems/concatenation-of-array/question?list=allNC
+# Link: https://neetcode.io/problems/is-anagram
+# Topic: Array & Hashing
+# Sub-topic: Frequency Counting
+# Problem Type: String comparison
+# Constraint: Determine if two strings have identical character frequencies
+# Technique Used: Hash map / Counter
+# Pattern Recognition: Counting
+# Approach Summary: Count each string with Counter and compare the maps.
+# Analysis of LeetCode/NeetCode: Correct hashing approach with linear time over input size.
+# Tags: string, hashmap, counter
+# Time Taken: 32m
+# Attempts: 2
 #
 # Time Complexity: O(n) none mentioned
 # Space Complexity: O(k) none mentioned
+# Better Approach?: Sorting approach exists but is slower at O(n log n).
+# Optimization Idea: Quick length check before building counters can skip extra work.
+# Key Insight You Missed: Equal lengths are a necessary condition for anagrams.
 
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
