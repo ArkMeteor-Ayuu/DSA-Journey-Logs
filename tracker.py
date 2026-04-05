@@ -467,6 +467,20 @@ def get_pending_problem_files(root: Path) -> list[Path]:
 
 def collect_log_details(file_path: Path, existing: dict[str, str] | None) -> dict[str, str]:
     """Build one complete log row from metadata + user prompts."""
+    defaults = build_default_log_values(file_path, existing)
+
+    print("\nEnter solve details (press Enter to keep default shown in brackets).")
+    row: dict[str, str] = {}
+    for field in LOG_FIELDS:
+        row[field] = prompt_text(field, defaults.get(field, ""))
+
+    row["File"] = str(file_path.relative_to(ROOT))
+    row["Logged At"] = now_ist().strftime("%Y-%m-%d %H:%M:%S IST")
+    return row
+
+
+def build_default_log_values(file_path: Path, existing: dict[str, str] | None) -> dict[str, str]:
+    """Build default log values from metadata and fallback rules."""
     metadata = parse_problem_metadata(file_path)
     now = now_ist()
 
@@ -502,11 +516,13 @@ def collect_log_details(file_path: Path, existing: dict[str, str] | None) -> dic
             if not defaults[key]:
                 defaults[key] = existing.get(key, "")
 
-    print("\nEnter solve details (press Enter to keep default shown in brackets).")
-    row: dict[str, str] = {}
-    for field in LOG_FIELDS:
-        row[field] = prompt_text(field, defaults.get(field, ""))
+    return defaults
 
+
+def collect_log_details_auto(file_path: Path, existing: dict[str, str] | None) -> dict[str, str]:
+    """Build one complete log row without prompting (metadata-first mode)."""
+    defaults = build_default_log_values(file_path, existing)
+    row = {field: defaults.get(field, "") for field in LOG_FIELDS}
     row["File"] = str(file_path.relative_to(ROOT))
     row["Logged At"] = now_ist().strftime("%Y-%m-%d %H:%M:%S IST")
     return row
@@ -721,12 +737,16 @@ def git_commit_and_push() -> None:
 def log_one_file(logs: list[dict[str, str]], file_path: Path) -> list[dict[str, str]]:
     """Collect details for one file and write log storage."""
     metadata = parse_problem_metadata(file_path)
+    existing = find_existing_log(logs, file_path)
+
     if not metadata_is_complete(metadata):
         print(f"Metadata format is incomplete for: {file_path.relative_to(ROOT)}")
         print("Tracker will ask for all required details now.")
+        row = collect_log_details(file_path, existing)
+    else:
+        row = collect_log_details_auto(file_path, existing)
+        print(f"Metadata is complete. Auto-logging: {file_path.relative_to(ROOT)}")
 
-    existing = find_existing_log(logs, file_path)
-    row = collect_log_details(file_path, existing)
     row = add_edit_markers(logs, row)
     logs = upsert_log(logs, row)
     save_logs(LOG_DATA_PATH, logs)
@@ -752,11 +772,8 @@ def main() -> None:
         print("Found modified/untracked problem files. Processing one by one.")
         for file_path in pending_files:
             print(f"\nCandidate file: {file_path.relative_to(ROOT)}")
-            if ask_yes_no("Add/update this file in log now?", default_yes=True):
-                logs = log_one_file(logs, file_path)
-                processed.add(file_path)
-            if not ask_yes_no("Continue to next pending file?", default_yes=True):
-                break
+            logs = log_one_file(logs, file_path)
+            processed.add(file_path)
     else:
         print("No modified/untracked problem files found.")
 
