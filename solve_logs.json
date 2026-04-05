@@ -147,6 +147,10 @@
     "Optimization Idea": "Swap-with-end variant may reduce writes when target appears frequently.",
     "Key Insight You Missed": "Tracking a write index is enough to rebuild the valid prefix in-place.",
     "File": "Array & Hashing/Easy-Level/leatcode/Remove Element.py",
-    "Logged At": "2026-04-05 08:45:33"
+    "Logged At": "2026-04-05 14:40:04 IST",
+    "Edited": "Yes",
+    "Previous Logged Date": "2026-04-05",
+    "Previous Logged At": "2026-04-05 08:45:33",
+    "Last Edited At": "2026-04-05 14:40:04 IST"
   }
 ]
