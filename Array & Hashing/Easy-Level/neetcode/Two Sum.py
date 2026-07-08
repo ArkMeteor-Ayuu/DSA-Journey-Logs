@@ -14,6 +14,8 @@
 # Time Taken: 17 minutes
 # Attempts: 1
 #
+#Quote of the Day: "A hero is someone who voluntarily walks into the unknown."
+#
 # Time Complexity: O(n)
 # Space Complexity: O(n)
 # Better Approach?: No, this one-pass hash map approach is the standard optimal solution.
