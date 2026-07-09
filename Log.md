@@ -6,6 +6,31 @@ This log is organized by date and includes problem metadata, analysis, and revie
 
 ## 2026-07-09 (Thursday)
 
+### Replace Elements with Greatest Element on Right Side
+
+- Platform: LeetCode
+- Link: https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/
+- Topic: Array & Hashing
+- Sub-topic: Reverse Traversal
+- Time Taken: 11 mins
+- Attempt Count: 1
+- Problem Type: In-place array transformation
+- Constraint: Replace each value with the greatest value to its right
+- Technique Used: Running maximum
+- Pattern Recognition: Suffix maximum
+- Approach Summary: Traverse the array from right to left while keeping the greatest value seen so far and overwrite each position with that running maximum.
+- Analysis of LeetCode/NeetCode: This is the optimal in-place solution with linear time and constant extra space.
+- Tags: array, traversal, inplace, greedy
+- Time Complexity: O(n)
+- Space Complexity: O(1)
+- Better Approach?: No, a backward pass with a running maximum is the standard optimal solution.
+- Optimization Idea: Update the array in place while scanning from the end so no extra storage is needed.
+- Key Insight You Missed: Once you move right-to-left, the best value to the right is already known.
+- File: Array & Hashing/Easy-Level/neetcode/Replace Elements With Greatest Element On Right Side.py
+- Edited: No
+- Last Edited At: 2026-07-09 21:48:19 IST
+- Logged At: 2026-07-09 21:48:19 IST
+
 ### Two Sum
 
 - Platform: NeetCode
