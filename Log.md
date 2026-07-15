@@ -6,6 +6,31 @@ This log is organized by date and includes problem metadata, analysis, and revie
 
 ## 2026-07-15 (Wednesday)
 
+### Length of Last Word
+
+- Platform: NeetCode
+- Link: https://neetcode.io/problems/length-of-last-word
+- Topic: Array & Hashing
+- Sub-topic: Strings
+- Time Taken: 9 mins
+- Attempt Count: 1
+- Problem Type: String traversal
+- Constraint: Return the length of the final word in a string
+- Technique Used: Reverse scan
+- Pattern Recognition: Skip trailing spaces, then count the final word
+- Approach Summary: Walk backward to ignore trailing spaces, then count characters until the next space or the start of the string.
+- Analysis of LeetCode/NeetCode: This is a linear-time solution with constant extra space.
+- Tags: string, traversal, reverse-scan
+- Time Complexity: O(n)
+- Space Complexity: O(1)
+- Better Approach?: No, this is already optimal for the problem.
+- Optimization Idea: A reverse scan avoids splitting the string or storing words.
+- Key Insight You Missed: Trailing spaces must be skipped before counting the final word.
+- File: Array & Hashing/Easy-Level/neetcode/Length Of Last Word.py
+- Edited: No
+- Last Edited At: 2026-07-15 20:40:44 IST
+- Logged At: 2026-07-15 20:40:44 IST
+
 ### Top K Frequent Elements
 
 - Platform: NeetCode
