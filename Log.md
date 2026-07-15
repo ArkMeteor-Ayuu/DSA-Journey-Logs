@@ -6,6 +6,31 @@ This log is organized by date and includes problem metadata, analysis, and revie
 
 ## 2026-07-15 (Wednesday)
 
+### Is Subsequence
+
+- Platform: NeetCode
+- Link: https://neetcode.io/problems/is-subsequence
+- Topic: Array & Hashing
+- Sub-topic: Two Pointers
+- Time Taken: 0 minutes
+- Attempt Count: 1
+- Problem Type: String subsequence check
+- Constraint: Determine whether s appears in t in order
+- Technique Used: Two pointers
+- Pattern Recognition: Linear scan
+- Approach Summary: Walk through both strings with two pointers and advance the s pointer only when characters match.
+- Analysis of LeetCode/NeetCode: This is the standard linear-time solution for a single subsequence query.
+- Tags: string, two-pointers, subsequence
+- Time Complexity: O(n)
+- Space Complexity: O(1)
+- Better Approach?: No for a single query; the two-pointer scan is optimal.
+- Optimization Idea: Return early when s is fully matched.
+- Key Insight You Missed: A subsequence only needs relative order, not contiguity.
+- File: Array & Hashing/Easy-Level/neetcode/Is Subsequence.py
+- Edited: No
+- Last Edited At: 2026-07-15 16:29:09 IST
+- Logged At: 2026-07-15 16:29:09 IST
+
 ### Top K Frequent Elements
 
 - Platform: NeetCode

@@ -48,7 +48,7 @@ This repository tracks my DSA journey with platform-separated solutions and an a
 
 | Topic | Problems Solved |
 |------|----------------|
-| Arrays | 10 |
+| Arrays | 11 |
 | Strings | 0 |
 | Linked List | 0 |
 | Trees | 0 |
