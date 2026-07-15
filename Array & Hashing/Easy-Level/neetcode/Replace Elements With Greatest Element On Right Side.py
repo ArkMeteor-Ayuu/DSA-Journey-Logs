@@ -14,7 +14,7 @@
 # Time Taken: 11 mins
 # Attempts: 1
 #
-# Quote of the Day: "Only way to predict the future is to forge one yourself."
+# Quote of the Day: "We don't stop playing because we grow old; we grow old because we stop playing."
 #
 # Time Complexity: O(n)
 # Space Complexity: O(1)

@@ -14,7 +14,7 @@
 # Time Taken: 0 minutes
 # Attempts: 1
 #
-#Quote of the Day: "Only way to predict the future is to forge one yourself."
+#Quote of the Day: "Discipline is the bridge between goals and accomplishment."
 #
 # Time Complexity: O(n)
 # Space Complexity: O(1)

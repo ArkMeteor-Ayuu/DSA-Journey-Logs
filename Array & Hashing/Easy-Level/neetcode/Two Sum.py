@@ -14,7 +14,7 @@
 # Time Taken: 17 minutes
 # Attempts: 1
 #
-#Quote of the Day: "A hero is someone who voluntarily walks into the unknown."
+#Quote of the Day: "Do what you can, with what you have, where you are."
 #
 # Time Complexity: O(n)
 # Space Complexity: O(n)

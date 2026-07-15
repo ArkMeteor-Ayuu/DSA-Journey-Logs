@@ -14,6 +14,7 @@
 # Time Taken: 32m
 # Attempts: 2
 #
+# Quote of the Day: "No one has a greater asset for his business than a man's pride in his work."
 # Time Complexity: O(n) none mentioned
 # Space Complexity: O(k) none mentioned
 # Better Approach?: Sorting approach exists but is slower at O(n log n).

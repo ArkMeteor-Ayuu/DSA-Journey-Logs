@@ -14,6 +14,7 @@
 # Time Taken: 48m
 # Attempts: 5
 #
+# Quote of the Day: "The most worth-while thing is to try to put happiness into the lives of others."
 # Time Complexity: O(n) none mentioned
 # Space Complexity: O(1) none mentioned
 # Better Approach?: Space can be O(1) because no extra structure scales with input.

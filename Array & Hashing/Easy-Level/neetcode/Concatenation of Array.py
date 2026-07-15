@@ -14,6 +14,7 @@
 # Time Taken: 25m
 # Attempts: 2
 #
+# Quote of the Day: "Strength and growth come only through continuous effort and struggle."
 # Time Complexity: O(n) none mentioned
 # Space Complexity: O(n) none mentioned
 # Better Approach?: No significant improvement beyond direct construction.

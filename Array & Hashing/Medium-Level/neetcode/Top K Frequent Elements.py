@@ -14,7 +14,7 @@
 # Time Taken: 6 minutes
 # Attempts: 1
 #
-#Quote of the Day: "Only way to predict the future is to forge one yourself."
+#Quote of the Day: "A smile is a curve that sets everything straight."
 #
 # Time Complexity: O(n)
 # Space Complexity: O(n)

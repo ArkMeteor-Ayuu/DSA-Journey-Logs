@@ -14,6 +14,7 @@
 # Time Taken: 18m
 # Attempts: 1
 #
+# Quote of the Day: "Living well is the best revenge."
 # Time Complexity: O(n)
 # Space Complexity: O(n)
 # Better Approach?: Sorting gives O(n log n) with O(1)/O(log n) extra space tradeoff.

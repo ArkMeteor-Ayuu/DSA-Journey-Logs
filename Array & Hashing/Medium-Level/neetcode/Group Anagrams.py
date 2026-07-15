@@ -14,7 +14,7 @@
 # Time Taken: 21 minutes
 # Attempts: 1
 #
-#Quote of the Day: "Only way to predict the future is to forge one yourself."
+#Quote of the Day: "Be kind whenever possible. It is always possible."
 #
 # Time Complexity: O(n * k)
 # Space Complexity: O(n * k)

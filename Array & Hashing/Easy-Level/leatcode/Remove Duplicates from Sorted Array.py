@@ -14,6 +14,7 @@
 # Time Taken: 20m
 # Attempts: 2
 #
+# Quote of the Day: "For it is in giving that we receive."
 # Time Complexity: O(n) (O(n) suggested) 
 # Space Complexity: O(1) (O(1) suggested) 
 # Better Approach?: No, this is the standard optimal approach.

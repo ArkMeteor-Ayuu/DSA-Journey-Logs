@@ -14,6 +14,7 @@
 # Time Taken: 25m
 # Attempts: 1
 #
+# Quote of the Day: "Laughter is the sun that drives winter from the human face."
 # Time Complexity: O(n) (O(n) suggested) 
 # Space Complexity: O(1) (O(1) suggested) 
 # Better Approach?: Equivalent alternatives exist but complexity remains the same.
