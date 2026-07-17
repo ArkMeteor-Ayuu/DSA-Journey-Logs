@@ -43,12 +43,15 @@ This repository tracks my DSA journey with platform-separated solutions and an a
     - neetcode/
   - Medium-Level/
     - neetcode/
+- Strings/
+  - Easy-Level/
+    - neetcode/
 
 ## 📊 Progress Tracker
 
 | Topic | Problems Solved |
 |------|----------------|
-| Arrays | 15 |
+| Arrays | 16 |
 | Strings | 0 |
 | Linked List | 0 |
 | Trees | 0 |

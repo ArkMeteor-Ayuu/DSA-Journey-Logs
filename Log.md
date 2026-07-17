@@ -6,6 +6,31 @@ This log is organized by date and includes problem metadata, analysis, and revie
 
 ## 2026-07-17 (Friday)
 
+### Longest Common Prefix
+
+- Platform: NeetCode
+- Link: https://leetcode.com/problems/longest-common-prefix/
+- Topic: Array & Hashing
+- Sub-topic: Common prefix / Strings
+- Time Taken: 22 min
+- Attempt Count: 1
+- Problem Type: Prefix computation across list of strings
+- Constraint: 1 <= strs.length <= 200, 0 <= strs[i].length <= 200; strs[i] lowercase if non-empty
+- Technique Used: Iterative prefix trimming
+- Pattern Recognition: Pairwise prefix reduction
+- Approach Summary: Start with the first string as candidate prefix, iteratively trim it using each subsequent word until it matches the prefix of all strings.
+- Analysis of LeetCode/NeetCode: Linear scan across characters with early termination is optimal given constraints.
+- Tags: array, strings, prefix
+- Time Complexity: O(S) where S is the sum of all characters in input strings
+- Space Complexity: O(1) extra
+- Better Approach?: 
+- Optimization Idea: 
+- Key Insight You Missed: 
+- File: Array & Hashing/Easy-Level/neetcode/Longest Common Prefix.py
+- Edited: No
+- Last Edited At: 2026-07-17 17:26:56 IST
+- Logged At: 2026-07-17 17:26:56 IST
+
 ### Max Consecutive Ones
 
 - Platform: NeetCode
